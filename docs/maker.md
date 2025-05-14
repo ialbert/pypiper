@@ -1,6 +1,6 @@
-# Piper Maker
+# The Maker
 
-**Piper Maker** is an expansion of Pypiper to work more like a Makefile.
+The **maker** is an expansion of Pypiper to work more like a Makefile.
 
 Note: this document is not suggesting changes to how Pypiper works. 
 
