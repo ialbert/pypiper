@@ -19,7 +19,7 @@ results.txt:
     echo "Hello, world!" >  results.txt
 ```
 
-The syntax is simple. You have a target called `results.txt` then under it you list the commands that create that file. The commands that we list are idnetical to those listed in bash. There is very little new to learn.
+The syntax is simple. You have a target called `results.txt` then under it you list the commands that create that file. The syntax of the commands that we list is identical to that used in bash. There is little new to learn. Just simple conventions.
 
 But as soon as you need to do anything more complicated, for example generate names based on some information, read some content from an existing file, it gets very confusing very quickly.
 
