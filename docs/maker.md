@@ -1,6 +1,6 @@
-# Pypipe Maker
+# Piper Maker
 
-Pypiper Maker is an expansion of Pypiper to work more like a Makefile.
+**Piper Maker** is an expansion of Pypiper to work more like a Makefile.
 
 
 ## The problem with Pypiper
