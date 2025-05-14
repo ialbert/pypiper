@@ -70,6 +70,8 @@ I like to use the `.mk` extension the makerfiles because the syntax is similar t
 
 ### Example 1: Simple commands
 
+Some of the simplest `Makerfiles` is also a valid `Makefiles`. For example this here below will work with both `make` and `maker`.
+
 See the `tests/maker/commands_1.mk` file.
 
 ```makefile
