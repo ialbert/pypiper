@@ -13,21 +13,27 @@ the learning curve is already steep. They have to learn UNIX commands, bash comm
 
 **Pypiper does not SCALE DOWN sufficiently for small tasks.**
 
+
 ## The problem with Make
 
-Whereas a simple `Makefile` is trivial to write and explain:
+Starting out with a`Makefile` is trivial to write and explain:
 
 ```
 results.txt:
     echo "Hello, world!" >  results.txt
 ```
 
-The syntax is simple. You have a target called `results.txt` then under it you list the commands that create that file. The syntax of the commands that we list is identical to that used in bash. There is little new to learn. Just simple conventions.
+That's it.
 
-But as soon as you need to do anything more complicated, for example generate names based on some information, read some content from an existing file, it gets very confusing very quickly.
+You have a target called `results.txt` then under it you list the commands that create that file. 
+
+The syntax of the commands that we list is identical to that used in bash. 
+
+But as soon as you need to do anything more complicated, for example generate names based on some information, read some content from an existing file, it gets very confusing very quickly. 
+
+Dependencies are hard to reason and gets in the way most of the time. Data analyses are usually linear and not a complex graph of dependencies.
 
 **The problem with `make` and `Makefiles` that they don't SCALE UP properly.**
-
 
 Make is an ancient tool with a steep learning curve.
 
