@@ -48,6 +48,9 @@ Why is it better to learn a new thing that embeds Python than to write actual Py
 Makerfiles are simple text files that are more easily translatable to bash or Makefiles.
 
 ### Running maker
+
+When installed this repository will install the `maker` command that can be used to run Makerfiles.
+
 ```bash
 maker yourmakerfile.mk
 ```
