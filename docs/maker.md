@@ -8,11 +8,9 @@ Pypiper Maker is an expansion of Pypiper to work more like a Makefile.
 Pypiper requires Python programming. Yet for a newcomer to bioinformatics, 
 the learning curve is already steep. They have to learn UNIX commands, bash commands, bioinformatics tools and then Python.
 
-Pypiper does not scale down sufficiently for small tasks.
+**Pypiper does not scale down sufficiently for small tasks.**
 
 ## The problem with Make
-
-The problems with `make` and `Makefiles` that they don't scale up properly. 
 
 Whereas a simple `Makefile` is trivial to write and explain:
 
@@ -24,6 +22,9 @@ results.txt:
 The syntax is simple. You have a target called `results.txt` then under it you list the commands that create that file. The commands that we list are idnetical to those listed in bash. There is very little new to learn.
 
 But as soon as you need to do anything more complicated, for example generate names based on some information, read some content from an existing file, it gets very confusing very quickly.
+
+**The problem with `make` and `Makefiles` that they don't scale up properly.**
+
 
 Make is an ancient tool with a steep learning curve.
 
