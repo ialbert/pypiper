@@ -4,12 +4,12 @@
 
 Note: this document is not suggesting changes to how Pypiper works. 
 
-It is a new module, with a new command line tool called `maker` built on top of Pypiper that allows Pypiper to be work more like a `make` and process so called `Makerfiles`.
+It is a new module, with a new command line tool called `maker` built on top of Pypiper that allows Pypiper to work more like a `make` and process so called `Makerfiles`.
 
 ## The problem with Pypiper
 
 Pypiper requires Python programming. Yet for a newcomer to bioinformatics, 
-the learning curve is already steep. They have to learn UNIX commands, bash commands, bioinformatics tools and then Python.
+the learning curve is already steep. They have to learn UNIX commands, bash commands, bioinformatics tools, R, and then Python.
 
 **Pypiper does not SCALE DOWN sufficiently for small tasks.**
 
