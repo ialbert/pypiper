@@ -46,13 +46,33 @@ def cli(fname=''):
 
     make(text)
 
+def parse(text):
+    collect = []
+    stream = text.splitlines()
+    stream = map(lambda x: x.rstrip(), stream)
+    stream = filter(None, stream)
+    for line in stream:
+        has_cont = line.endswith('\\')
+        if has_cont:
+            line = line[:-1].rstrip() + ' '
+            collect.append(line)
+        else:
+            collect.append(line)
+            collect.append("\n")
+     
+    text = "".join(collect)
+
+    text = dedent(text)
+
+    return text
+
 def make(text, name="pypiper", outfolder="logs", clean=''):
+
+    # Read the text.
+    text = parse(text)
 
     # Process the template.
     text = render(text)
-
-    # Dedent the template
-    text = dedent(text)
 
     # Split the template into lines.
     lines = text.splitlines()
