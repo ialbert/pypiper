@@ -31,7 +31,7 @@ The syntax of the commands that we list is identical to that used in bash.
 
 But as soon as you need to do anything more complicated, for example generate names based on some information, read some content from an existing file, it gets very confusing very quickly. 
 
-Dependencies are hard to reason and gets in the way most of the time. Data analyses are usually linear and not a complex graph of dependencies.
+Dependencies are hard to reason and get in the way most of the time. Data analyses are usually linear processes and not a complex graph of dependencies.
 
 **The problem with `make` and `Makefiles` that they don't SCALE UP properly.**
 
