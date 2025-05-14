@@ -95,7 +95,7 @@ maker tests/maker/commands_1.mk
 
 Will generate the `listing.txt` and `count.txt` files.
 
-## Example 2: Adding Python code
+### Example 2: Adding Python code
 
 See the `tests/maker/commands_2.mk` file. I adopted the templating system developed for `bottle.py` microframework to allow running Python code inside `Makerfiles`. I like the syntax of this templating system. No other feature of `bottle.py` is used, just the templating system.
 
@@ -137,7 +137,7 @@ ${COUNT}:
 
 Notably the above is an almost a valid `Makefile` as well. Remove the `%` and it will function as a valid `Makefile`. 
 
-## Example 3: Looping in the Makerfile
+### Example 3: Looping in the Makerfile
 
 See the `tests/maker/commands_3.mk` file.
 
@@ -154,7 +154,7 @@ ${num}.txt:
 <% end %>
 ```
 
-## Example 4: Full Python code may be embedded into the Makerfile
+### Example 4: Full Python code may be embedded into the Makerfile
 
 See the `tests/maker/commands_4.mk` file.
 
