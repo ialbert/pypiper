@@ -119,11 +119,7 @@ ${COUNT}:
     cat ${LISTING} | wc -l > ${COUNT}
 ```
 
-### Example 3: 
-
-#
-# Python code may be embedded fully and gets compiled and executed
-#
+### Example 3: Looping in the Makerfile
 
 See the `tests/maker/commands_3.mk` file.
 
@@ -138,7 +134,6 @@ ${num}.txt:
 	echo ${val} > ${num}.txt
 <% end %>
 ```
-
 
 ## Example 4: Full Python code may be embedded into the Makerfile
 
