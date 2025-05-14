@@ -97,7 +97,7 @@ Will generate the `listing.txt` and `count.txt` files.
 
 See the `tests/maker/commands_2.mk` file. I adopted the templating system developed for `bottle.py` microframework to allow running Python code inside `Makerfiles`. I like the syntax of this templating system. No other feature of `bottle.py` is used, just the templating system.
 
-* [Bottle Templates][templates]
+* [Simple Templates][templates]
 
 [templates]: https://bottlepy.org/docs/dev/stpl.html
 
@@ -133,7 +133,7 @@ ${COUNT}:
     cat ${LISTING} | wc -l > ${COUNT}
 ```
 
-### Example 3: Looping in the Makerfile
+## Example 3: Looping in the Makerfile
 
 See the `tests/maker/commands_3.mk` file.
 
@@ -143,6 +143,7 @@ In this example I can even loop inside the Makerfile.
 % NUMS = range(10)
 % VALS = [x*x for x in NUMS]
 
+# Looping in the Simple Template style.
 <% for num, val in zip(NUMS, VALS): %>
 ${num}.txt:
 	echo ${val} > ${num}.txt
