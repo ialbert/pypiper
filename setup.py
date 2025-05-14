@@ -74,5 +74,10 @@ setup(
     ),
     extras_require=addl_reqs,
     # Version-specific items
+    entry_points={
+        'console_scripts': [
+            'maker=pypiper.maker:cli',
+        ],
+    },
     **extra
 )

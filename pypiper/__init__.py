@@ -8,3 +8,6 @@ from .ngstk import *
 from .pipeline import *
 from .stage import *
 from .utils import *
+
+from pypiper.maker import make
+
