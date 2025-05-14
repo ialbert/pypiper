@@ -4,7 +4,7 @@ The **maker** is an expansion of Pypiper to work more like a Makefile.
 
 Note: this document is not suggesting changes to how Pypiper works. 
 
-It is a new module, with a new command line tool called `maker` built on top of Pypiper that allows Pypiper to work more like a `make` and process so called `Makerfiles`.
+`maker` is a new module, that installs a new command line tool called `maker` built on top of Pypiper that allows Pypiper to work more like a `make` and process so called `Makerfiles`.
 
 ## The problem with Pypiper
 
