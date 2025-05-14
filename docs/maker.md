@@ -8,7 +8,7 @@
 Pypiper requires Python programming. Yet for a newcomer to bioinformatics, 
 the learning curve is already steep. They have to learn UNIX commands, bash commands, bioinformatics tools and then Python.
 
-**Pypiper does not scale down sufficiently for small tasks.**
+**Pypiper does not SCALE DOWN sufficiently for small tasks.**
 
 ## The problem with Make
 
@@ -23,7 +23,7 @@ The syntax is simple. You have a target called `results.txt` then under it you l
 
 But as soon as you need to do anything more complicated, for example generate names based on some information, read some content from an existing file, it gets very confusing very quickly.
 
-**The problem with `make` and `Makefiles` that they don't scale up properly.**
+**The problem with `make` and `Makefiles` that they don't SCALE UP properly.**
 
 
 Make is an ancient tool with a steep learning curve.
