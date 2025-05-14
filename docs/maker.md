@@ -97,9 +97,10 @@ Will generate the `listing.txt` and `count.txt` files.
 
 See the `tests/maker/commands_2.mk` file. We use the templating system developed for `bottle.py` to allow us to add Python code to the Makerfile. I like the syntax of this system. No other feature of `bottle.py` is used, just the templating system.
 
+I made one change the to syntax of the `bottle.py` templating system. In `bottle py` the variable substitution syntax is `{{var}}` but I changed that to `${var}` to make it more similar to the syntax used in BASH and Makefiles.
+
 All python code is prefixed either with `%` if it is a single line or `<% %>` if it is a multi-line block.
 
-The variable substitution syntax is identical to that used in BASH and Makefiles. So code from a script can be used directly in a Makerfile.
 
 ```makefile
 
