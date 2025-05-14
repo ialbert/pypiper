@@ -135,6 +135,8 @@ ${COUNT}:
     cat ${LISTING} | wc -l > ${COUNT}
 ```
 
+Notably the above is an almost a valid `Makefile` as well. Remove the `%` and it will function as a valid `Makefile`. 
+
 ## Example 3: Looping in the Makerfile
 
 See the `tests/maker/commands_3.mk` file.
