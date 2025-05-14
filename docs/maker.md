@@ -95,7 +95,11 @@ Will generate the `listing.txt` and `count.txt` files.
 
 ## Example 2: Adding Python code
 
-See the `tests/maker/commands_2.mk` file. We use the templating system developed for `bottle.py` to allow us to add Python code to the Makerfile. I like the syntax of this system. No other feature of `bottle.py` is used, just the templating system.
+See the `tests/maker/commands_2.mk` file. I adopted the templating system developed for `bottle.py` microframework to allow running Python code inside `Makerfiles`. I like the syntax of this templating system. No other feature of `bottle.py` is used, just the templating system.
+
+* [Bottle Templates][templates]
+
+[templates]: https://bottlepy.org/docs/dev/stpl.html
 
 I made one change the to syntax of the `bottle.py` templating system. In `bottle py` the variable substitution syntax is `{{var}}` but I changed that to `${var}` to make it more similar to the syntax used in BASH and Makefiles.
 
